@@ -83,7 +83,7 @@ export function Contact() {
                                 </div>
                                 <div className="form-group col-sm-6">
                                     <label htmlFor="number" className="input-label">Contact number</label>
-                                    <input disabled={isLoading} ref={contactInp} type="number" name='number' className="form-control" placeholder='Enter Contact Number' />
+                                    <input disabled={isLoading} ref={contactInp} type="text" name='number' className="form-control" placeholder='Enter Contact Number' />
                                 </div>
                                 <div className="form-group col-sm-12">
                                     <label htmlFor="message" className="input-label">Message</label>
