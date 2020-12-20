@@ -4,7 +4,7 @@ import {
   } from "react-router-dom";
 import botigaBackground from '../../assets/resource/background.svg';
 import logo from '../../assets/resource/logo.svg';
-import orderHome from '../../assets/resource/order-home.svg';
+import orderHome from '../../assets/resource/order-home.png';
 import { DownloadAppBtn } from "../download-app-btn/downloadAppBtn";
 
 import './header.css';
@@ -19,7 +19,7 @@ export function Header() {
                         <p className="head-overview-content">Start selling in community apartments near you</p>
                         <DownloadAppBtn />
                     </div>
-                    <img alt="Botiga overview" className="screenImg" src={orderHome} />
+                    <img alt="Botiga overview" className="headerOverviewImg" src={orderHome} />
                 </div>
             </div>
         </div>

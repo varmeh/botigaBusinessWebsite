@@ -27,6 +27,14 @@
   margin-right: auto!important;
 }
 
+.bodyImg{
+  height: 740px !important;
+  width: 459px !important;
+}
+.headerOverviewImg{
+  height: 580px !important;
+  width: 523px !important;
+}
 .website-width{
   width:100% !important;
   max-width: 960px !important;
@@ -43,11 +51,11 @@
   .col-reverse{
     flex-direction: column-reverse !important;
   }
-  .screenImg{
+  .bodyImg,.headerOverviewImg{
     position: relative !important;
-    left: -30px !important;
-    height: 400px !important;
-    width: 300px !important;
+    left: -10% !important;
+    height: 100% !important;
+    width: 100% !important;
   }
   .contentText-padding,.headingContent{
     padding: 20px !important;
@@ -71,9 +79,9 @@
   .col-reverse{
     flex-direction: column-reverse !important;
   }
-  .screenImg{
+  .bodyImg,.headerOverviewImg{
     position: relative !important;
-    left: -60px !important;
+    left: -7% !important;
   }
   .contentText-padding,.headingContent{
     padding: 50px !important;
