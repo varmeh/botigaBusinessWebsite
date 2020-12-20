@@ -6,7 +6,7 @@ import { config } from '../../config';
 export function DownloadAppBtn() {
     const style = { height: '60px', width: '203px' }
     return (
-        <div className="d-flex pt-3 pb-3">
+        <div className="d-flex pt-3">
             <div className="pt-4">
                 <a href={config.store.appStore} target="_blank" rel="noreferrer">
                     <img role="button" alt="app store" style={style} src={appStore} />
