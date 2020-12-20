@@ -5,6 +5,9 @@
 2. In the Root of the project install dependency using `npm i`
 3. In the Root of the project execute `npm start`
 
+# CHANGING FOR MOBILE AND DESKTOP
+edit index.css media query for desktop and mobile look and feel
+
 # BUILDING THE PROJECT FOR DEPLOYMENT
 1. In the root of the project execute `npm run build` build folder will be generated use the files inisde the build folder for deplyment to aws s3 bucket
 
