@@ -1,0 +1,62 @@
+.modal-header{
+    border: none !important;
+    padding: 0px !important;
+}
+.contactus-head{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(18, 23, 21,1) !important;
+    margin-bottom: 25px !important;
+}
+.modal-content{
+    width: 80%;
+    margin: auto;
+    padding: 24px !important;
+    text-align: left !important;
+}
+.modal-content .col-sm-6,.modal-content .col-sm-12{
+    padding-left: 0px !important;
+}
+.form-group{
+    margin-bottom: 30px !important;
+}
+.form-group>input{
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    border: none;
+    border-radius: 4px !important;
+    background-color:#EEEEEE;
+    height: 51px !important;
+}
+.form-group>textarea{
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    border: none;
+    border-radius: 4px !important;
+    background-color: #EEEEEE;
+    height: 127px !important;
+}
+.input-label{
+    font-weight: 500 !important;
+    color: rgba(18, 23, 21, 0.5) !important;
+    font-size: 12px !important;
+    margin-bottom: 10px !important;
+}
+.error-label{
+    font-weight: 500 !important;
+    color: red !important;
+    font-size: 12px !important;
+    margin-bottom: 10px !important;
+}
+.send-msg-btn,.send-msg-btn:hover{
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    background-color: #179F57;
+    color: #ffffff;
+    margin: auto;
+    width: 167px;
+    height: 47px;
+}
+.spinner-border{
+    margin-right: 10px !important;
+}

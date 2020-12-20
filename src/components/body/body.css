@@ -1,0 +1,21 @@
+.primaryText{
+    font-weight: 700;
+    color: 'black';
+    font-size: 32px;
+}
+.secondaryText{
+    font-weight: 500;
+    color: rgba(18, 23, 21, 0.5);
+    font-size: 18px;
+}
+.Infocard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+
+.Infocard-image{
+    padding: 30px 0px 0px 30px !important;
+}
+.Infocard-content{
+    padding: 30px 50px 30px 50px !important;
+}
