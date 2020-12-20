@@ -51,7 +51,7 @@ function TrailingImageRow(props) {
 }
 
 function DownloadAppCard() {
-    const style = { height: '300px', width: '357px' };
+    const style = { height: '271px'};
     return (
         <div className="d-flex flex-column margin100-top">
             <div className="d-flex justify-content-center">

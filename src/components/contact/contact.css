@@ -60,3 +60,15 @@
 .spinner-border{
     margin-right: 10px !important;
 }
+.contactus-success{
+        font-size: 40px;
+        font-weight: 200;
+        color: rgba(18, 23, 21,1) !important;
+        margin-bottom: 10px !important;
+}
+.contactus-body-success{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgba(18, 23, 21,1) !important;
+    margin-bottom: 25px !important; 
+}
