@@ -130,7 +130,7 @@ export function Contact() {
 								type='text'
 								name='name'
 								className='form-control'
-								placeholder='Name'
+								placeholder=''
 							/>
 						</div>
 						<div className='form-group col-sm-6'>
@@ -144,7 +144,7 @@ export function Contact() {
 								type='text'
 								name='number'
 								className='form-control'
-								placeholder='Enter Contact Number'
+								placeholder=''
 							/>
 						</div>
 						<div className='form-group col-sm-12'>
@@ -158,7 +158,7 @@ export function Contact() {
 								type='message'
 								name='message'
 								className='form-control'
-								placeholder='Tell us in Short...'
+								placeholder=''
 							/>
 						</div>
 						<button
