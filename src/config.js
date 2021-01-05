@@ -7,8 +7,8 @@ export const config = {
         toName: 'Varun Mehta'
     },
     store:{
-        appStore: 'https://www.apple.com/in/app-store/',
-        playStore: 'https://play.google.com/store/'
+        appStore: 'https://apps.apple.com/in/app/botiga-business/id1540945727',
+        playStore: 'https://play.google.com/store/apps/details?id=app.botiga.botiga.biz'
     },
     documents:{
         privacy:'https://s3.ap-south-1.amazonaws.com/products.image.prod/privacyPolicy.html',

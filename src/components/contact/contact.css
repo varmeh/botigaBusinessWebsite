@@ -9,16 +9,19 @@
     margin-bottom: 25px !important;
 }
 .modal-content{
-    width: 80%;
+    width: 90%;
     margin: auto;
-    padding: 24px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
     text-align: left !important;
 }
-.modal-content .col-sm-6,.modal-content .col-sm-12{
-    padding-left: 0px !important;
+.modal-body{
+    padding: 1rem !important;
 }
 .form-group{
-    margin-bottom: 30px !important;
+    margin-bottom: 20px !important;
 }
 .form-group>input{
     font-weight: 500 !important;
@@ -71,4 +74,13 @@
     font-weight: 200;
     color: rgba(18, 23, 21,1) !important;
     margin-bottom: 25px !important; 
+}
+
+.close{
+    opacity: 1 !important;
+}
+
+.send-msg-btn{
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
 }

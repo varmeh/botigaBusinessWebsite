@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import './contact.css'
-import { config } from '../../config'
+import { config } from '../../config';
+import closeImg from "../../assets/resource/close.svg";
 
 export function Contact() {
 	const [name, setName] = useState('')
@@ -85,7 +86,7 @@ export function Contact() {
 						id='closeBtn'
 						className='close'
 						data-dismiss='modal'>
-						&times;
+						<img src={closeImg}/>
 					</button>
 				</div>
 				<div className='modal-body'>
@@ -113,11 +114,11 @@ export function Contact() {
 						id='closeBtn'
 						className='close'
 						data-dismiss='modal'>
-						&times;
+						<img src={closeImg}/>
 					</button>
 				</div>
 				<div className='modal-body'>
-					<div className='row contactus-head'>Contact Us</div>
+					<div className='form-group contactus-head'>Contact Us</div>
 					<div className='row'>
 						<div className='form-group col-sm-6'>
 							<label htmlFor='name' className='input-label'>
