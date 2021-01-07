@@ -91,7 +91,7 @@ function DownloadAppCard() {
 			<div className='d-flex flex-column justify-content-center col-lg-7 col-sm-12 col-med-12 pt-4'>
 				<div className='primaryText'>
 					{' '}
-					Start selling in community apartments now
+					Start selling in apartments communities now
 				</div>
 				<DownloadAppBtn />
 			</div>
